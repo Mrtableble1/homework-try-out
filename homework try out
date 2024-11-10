@@ -1,14 +1,16 @@
 class Student():
 
-    def __init__(self,n,z,g,):
+    def __init__(self,n,z,g,p):
         self.name = n
         self.age = z
         self.grade = g
+        self.post_code = p
 
     def display(self):
         print(self.name)
         print(self.age)
         print(self.grade)
+        print(self.post_code)
 
 John = Student("John",15,12,"0943DL")
 
