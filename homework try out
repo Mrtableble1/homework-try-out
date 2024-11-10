@@ -1,0 +1,21 @@
+class Student():
+
+    def __init__(self,n,z,g,):
+        self.name = n
+        self.age = z
+        self.grade = g
+
+    def display(self):
+        print(self.name)
+        print(self.age)
+        print(self.grade)
+
+John = Student("John",15,12,"0943DL")
+
+Dhruv = Student("Dhruv",12,8,"745YL")
+
+print(Dhruv.name)
+
+print(John.name)
+
+John.display()
